@@ -9,7 +9,10 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Simulador de Phishing</h1>
+      <h3>Simulador de Phishing</h3>
+      <p>
+        A demonstração a seguir tem foco educacional e será exclusivamente feita com dados falsos.
+      </p>
       <button onClick={link} style={{ padding: '12px 24px', fontSize: '16px', cursor: 'pointer' }}>Iniciar Simulação</button>
     </div>
   )
