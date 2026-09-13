@@ -65,7 +65,6 @@ export default function PortalAluno() {
   const [newPass, setNewPass] = useState("");
   const [newPass2, setNewPass2] = useState("");
 
-  // O HTML fornecido dependia do controller AngularJS para preencher aliases e OAuth.
   const aliases: string[] = [];
   const oauthProviders: Array<{ id: string; name: string }> = [];
 
@@ -108,8 +107,6 @@ export default function PortalAluno() {
 
   function handleLogin(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    // O endpoint controller.urlLoginPost não aparece no HTML fornecido.
-    // Mantemos o comportamento visual sem transmitir credenciais.
   }
 
   return (
@@ -491,7 +488,6 @@ export default function PortalAluno() {
         </div>
       )}
 
-      {/* Mantidos como estados/handlers React. Ative conforme sua aplicação fornecer esses fluxos. */}
       <button type="button" hidden onClick={() => setShowLinkModal(true)}>Abrir vínculo</button>
       <button type="button" hidden onClick={() => setShowMobileModal(true)}>Abrir mobile</button>
       <button type="button" hidden onClick={() => setView("newPassword")}>Nova senha</button>
