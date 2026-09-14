@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/login" element={<PortalDoAlunoLogin />} />
-        <Route path='/error' element={<LoginError/>}/>
+        <Route path='/erro' element={<LoginError/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,

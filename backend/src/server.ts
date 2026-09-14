@@ -61,8 +61,12 @@ app.post("/simulacao/login", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log(
-    "Backend rodando em http://localhost:3000"
-  );
+const PORT = 3000;
+
+const servidor = app.listen(PORT, "127.0.0.1", () => {
+  console.log(`Backend rodando em http://127.0.0.1:${PORT}`);
+});
+
+servidor.on("error", (erro) => {
+  console.error("ERRO AO INICIAR:", erro);
 });
