@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.erro-page {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #cccccc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.erro-window {
+  width: 530px;
+  height: 150px;
+  padding: 7px;
+  background: #dfe3f2;
+  border: 2px solid #4385a9;
+  border-radius: 6px;
+}
+
+.erro-message {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  background: white;
+  border: 1px solid #555;
+  gap: 10px;
+}
+
+.erro-image-container {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.erro-image {
+  width: 40px;
+  height: 64px;
+  margin-left: 4%;
+  object-fit: contain;
+}
+
+.erro-text {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  line-height: 10px;
+}
+
+.erro-text strong {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.erro-text p {
+  margin: 0;
+}
+
+.erro-actions {
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.erro-actions button {
+  width: 130px;
+  height: 25px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  background: linear-gradient(
+    to bottom,
+    #f3f3ec,
+    #d8d8d8
+  );
+  border: 1px solid #999;
+}
