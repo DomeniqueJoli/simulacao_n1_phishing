@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:19.670Z"
+  },
+  {
+    "id": 2,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:21.121Z"
+  },
+  {
+    "id": 3,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:22.625Z"
+  },
+  {
+    "id": 4,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:25.578Z"
+  },
+  {
+    "id": 5,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:28.339Z"
+  },
+  {
+    "id": 6,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:49:33.296Z"
+  },
+  {
+    "id": 7,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:55:35.958Z"
+  },
+  {
+    "id": 8,
+    "usuario": "06027500247",
+    "senhaInformada": true,
+    "data": "2026-09-13T22:55:50.930Z"
+  },
+  {
+    "id": 9,
+    "usuario": "06027500247",
+    "senhaInformada": "12345",
+    "data": "2026-09-13T23:03:54.653Z"
+  },
+  {
+    "id": 10,
+    "usuario": "06027500247",
+    "senhaInformada": "8796",
+    "data": "2026-09-14T01:36:24.026Z"
+  },
+  {
+    "id": 11,
+    "usuario": "06027500247",
+    "senhaInformada": "8796",
+    "data": "2026-09-14T01:36:25.637Z"
+  },
+  {
+    "id": 12,
+    "usuario": "06027500247",
+    "senhaInformada": "8796",
+    "data": "2026-09-14T01:37:14.156Z"
+  }
+]
